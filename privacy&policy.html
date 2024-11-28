@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PakFixers</title>
+    <!-- ------------- Bootstrap Css Link ----------------- -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <!-- ------------------ icon cdn -------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ------------------------ My Css ---------------------- -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="bg-light">
+    <!-- =============================== Header Section ============================ -->
+    <header class="headerpart">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#"><span class="text-success fw-bold">Pak</span>Fixers</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./privacy&policy.html">Privacy & Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-search"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./admin/index.html">log in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="head-content">
+            <div class="container">
+                <h1 class="text-white">Find Best Skill Worker</h1>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, facilis.</p>
+            </div>
+        </div>
+    </header>
+    <!-- =============================== Header Section ============================ -->
+
+    <!-- ================================== Skill Card Section ========================= -->
+    <section class="skillcardsection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="filter_box">
+                        <div class="filter_head">
+                            <h5>FILTERS</h5>
+                            <span>RESET</span>
+                        </div>
+                        <hr>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        Skills
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body skilllist">
+                                        <a href="">Plumber <b><span class="text-primary">(44)</span></b></a>
+                                        <a href="">Electrician <b><span class="text-primary">(44)</span></b></a>
+                                        <a href="">Mechanic <b><span class="text-primary">(44)</span></b></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        Price Range
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body pricelist">
+                                        <a href="">Lower To Higher</a>
+                                        <a href="">Higher To Lower</a>
+                                        <div class="mmbar my-3">
+                                            <div class="row bg-light p-3 g-1">
+                                                <span class="mb-2 text-secondary">Search By Price</span>
+                                                <div class="col-4">
+                                                    <input type="text" class="pricebarinput" placeholder="Min">
+                                                </div>
+                                                <div class="col-4">
+                                                    <input type="text" class="pricebarinput" placeholder="Max">
+                                                </div>
+                                                <div class="col-4">
+                                                    <button class="pricebtn"><i
+                                                            class="fas fa-search-dollar"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        Experience
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <div class="exp-box">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault1">
+                                                <label class="form-check-label" for="flexCheckDefault1">6 Months</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault2">
+                                                <label class="form-check-label" for="flexCheckDefault2">1 Year</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault3">
+                                                <label class="form-check-label" for="flexCheckDefault3">2 Years</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault4">
+                                                <label class="form-check-label" for="flexCheckDefault4">5 Years</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-9">
+                    <div class="searchbarbox">
+                        <input type="text" placeholder="Search here best skill man.....">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+
+                    <!-- =============================== Privacy Policy Section ============================ -->
+                    <section class="aboutussection shadow p-4 mt-2">
+                        <div class="container">
+                            <h1 class="text-center fw-bold">Privacy Policy for <span
+                                    class="text-success">Pak</span>Fixers</h1>
+                            <p class="mt-4 p-3 text-justify text-secondary">
+                                **Effective Date: [Insert Date]**<br>
+                                At PakFixers, accessible from [your website URL], your privacy is important to us. This
+                                Privacy Policy outlines the types of information we collect, how we use it, and your
+                                rights regarding your data. By using our website, you agree to the collection and use of
+                                information in accordance with this policy.
+                            </p>
+                            <h5>1. Information We Collect</h5>
+                            <p class="p-3 text-justify text-secondary">
+                                <strong>Personal Information:</strong> When you interact with our website, we may ask
+                                you to provide us with certain personally identifiable information, including but not
+                                limited to:
+                            <ul>
+                                <li>Name</li>
+                                <li>Email Address</li>
+                                <li>Phone Number</li>
+                                <li>Location</li>
+                                <li>Message Content</li>
+                            </ul>
+                            <strong>Non-Personal Information:</strong> We may also collect non-personal identification
+                            information whenever you interact with our website.
+                            </p>
+                            <h5>2. How We Use Your Information</h5>
+                            <p class="p-3 text-justify text-secondary">
+                                We may use the information we collect in the following ways:
+                            <ul>
+                                <li>To provide, operate, and maintain our website.</li>
+                                <li>To improve, personalize, and expand our services.</li>
+                                <li>To understand and analyze how you use our website.</li>
+                                <li>To communicate with you, either directly or through one of our partners.</li>
+                                <li>To find and prevent fraud.</li>
+                            </ul>
+                            </p>
+                            <h5>3. Sharing Your Information</h5>
+                            <p class="p-3 text-justify text-secondary">
+                                We do not sell, trade, or otherwise transfer to outside parties your personally
+                                identifiable information unless we provide users with advance notice.
+                            </p>
+                            <h5>4. Cookies and Tracking Technologies</h5>
+                            <p class="p-3 text-justify text-secondary">
+                                PakFixers uses cookies and similar tracking technologies to track the activity on our
+                                website and hold certain information. Cookies are files with a small amount of data
+                                which may include an anonymous unique identifier.
+                            </p>
+                            <h5>5. Data Security</h5>
+                            <p class="p-3 text-justify text-secondary">
+                                The security of your data is important to us, and we strive to implement and maintain
+                                reasonable, commercially acceptable security procedures and practices appropriate to the
+                                nature of the information we store.
+                            </p>
+                            <h5>6. Your Rights</h5>
+                            <p class="p-3 text-justify text-secondary">
+                                Depending on your location, you may have the following rights regarding your personal
+                                information:
+                            <ul>
+                                <li>The right to access, correct, or delete your personal data.</li>
+                                <li>The right to object to or restrict the processing of your data.</li>
+                                <li>The right to data portability.</li>
+                                <li>The right to withdraw consent at any time.</li>
+                            </ul>
+                            </p>
+                            <h5>7. Changes to This Privacy Policy</h5>
+                            <p class="p-3 text-justify text-secondary">
+                                We may update our Privacy Policy from time to time. Changes are effective when they are
+                                posted on this page.
+                            </p>
+                            <h5>8. Contact Us</h5>
+                            <p class="p-3 text-justify text-secondary">
+                                If you have any questions or concerns about this Privacy Policy, please contact us:
+                            <ul>
+                                <li>Email: <a href="mailto:info@pakfixers.com">info@pakfixers.com</a></li>
+                                <li>Phone: <a href="tel:+123456789">+1 (234) 567-89</a></li>
+                                <li>Website: [your website URL]</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </section>
+                    <!-- =============================== Privacy Policy Section ============================ -->
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+        <script src="./assets/js/script.js"></script>
+    </section>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="fw-bold"><span class="text-success">Pak</span>Fixers:</h2>
+                    <p class="mt-4">
+                        PakFixers connects you with skilled professionals offering services such as electrical work,
+                        plumbing, and more. Our mission is to provide reliable and high-quality services to meet
+                        your needs.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="fw-bold">Services</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">Electricians</a></li>
+                        <li><a href="#" class="text-light">Plumbers</a></li>
+                        <li><a href="#" class="text-light">HVAC Services</a></li>
+                        <li><a href="#" class="text-light">Carpenters</a></li>
+                        <li><a href="#" class="text-light">More Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="fw-bold">Contact Us</h3>
+                    <p>
+                        Email: <a href="mailto:info@pakfixers.com" class="text-light">info@pakfixers.com</a><br>
+                        Phone: <a href="tel:+123456789" class="text-light"><span class="text-info">+1 (234)
+                                567-89</span></a><br>
+                        <a href="https://www.pakfixers.com" class="text-light">www.pakfixers.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <small>&copy; 2024 PakFixers. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

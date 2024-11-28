@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* ======================== Header css ==================== */
+.headerpart{
+    background: linear-gradient(
+    to bottom,
+    rgba(0,0,0, 0),
+    rgba(0,0,0, 100)
+    ),url(../images/backbanner.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 35vh;
+    transition: 1s ease;
+    animation-name: backimage;
+    animation-duration: 60s;
+ 
+    animation-iteration-count: infinite;
+}
+
+@keyframes backimage {
+    0%{
+        background: linear-gradient(
+            to bottom,
+            rgba(0,0,0, 0),
+            rgba(0,0,0, 100)
+        ),url(../images/backbanner.jpg);
+        background-size: cover;
+        transition: 1s ease;
+    }
+    25%{
+        background: linear-gradient(
+            to bottom,
+            rgba(0,0,0, 0),
+            rgba(0,0,0, 100)
+        ),url(../images/one.jpg);
+        background-size: cover;
+        transition: 1s ease;
+    }
+    50%{
+        background: linear-gradient(
+            to bottom,
+            rgba(0,0,0, 0),
+            rgba(0,0,0, 100)
+        ),url(../images/two.jpg);
+        background-size: cover;
+    }
+    75%{
+        background: linear-gradient(
+            to bottom,
+            rgba(0,0,0, 0),
+            rgba(0,0,0, 100)
+        ),url(../images/three.jpg);
+        background-size: cover;
+    }
+    100%{
+        background: linear-gradient(
+            to bottom,
+            rgba(0,0,0, 0),
+            rgba(0,0,0, 100)
+        ),url(../images/four.jpg);
+        background-size: cover;
+    }
+    
+}
+
+.head-content{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ======================== Header css ==================== */
+
+/* ======================== skill card css ==================== */
+.skillcardsection{
+    margin: 50px 0px;
+}
+/* ==================== filter box css ============================= */
+.filter_box{
+    padding: 10px 20px;
+}
+.filter_head{
+    display: flex;
+    justify-content: space-between;
+}
+.filter_head>h5{
+    font-weight: bold;
+    font-size: 15px;
+}
+.filter_head>span{
+    font-weight: bold;
+    color: gray;
+    font-size: 13px;
+}
+
+.accordion-button{
+  
+    padding: 20px 0px;
+}
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: transparent !important;
+    box-shadow: transparent !important;
+    border:  none !important;
+    outline: none !important;
+}
+.accordion-button:active{
+    border:  none !important;
+    outline: none !important;
+    box-shadow: none !important;
+
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+}
+.skilllist,.pricelist{
+    display: flex;
+    flex-direction: column;
+}
+.skilllist>a,.pricelist>a{
+
+    text-decoration: none;
+    color: gray;
+}
+.pricebarinput{
+    width: 100%;
+    padding: 6px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    
+}
+
+.pricebarinput:focus{
+    outline: none;
+    border: 2px solid rgb(25, 37, 255);
+    
+}
+.pricebtn{
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.searchbarbox{
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.searchbarbox>input{
+    width: 85%;
+    border: none;
+    background-color: transparent;
+    padding: 10px 0px;
+    border-bottom: 1px solid blue;
+    color: blue;
+    
+    animation: search 1s infinite ease;
+    
+}
+
+@keyframes search {
+    0%{
+        border-bottom: 1px solid blue;
+        
+    }
+    50%{
+        border-bottom: 1px solid transparent;
+
+    }
+    100%{
+        border-bottom: 1px solid blue;
+       
+
+    }
+}
+.searchbarbox>input::placeholder{
+    font-size: 20px;
+    color: rgb(198, 195, 195);
+}
+.searchbarbox>input:focus{
+    outline: none;
+}
+.searchbarbox>button{
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    width: 10%;
+    background-color: rgb(0, 47, 255);
+    transition: .5s ease;
+}
+.searchbarbox>button:hover{
+    background-color: rgb(239, 237, 237);
+    color: blue;
+}
+/* ==================== filter box css ============================= */
+
+
+/* ======================== skill card css ==================== */
+.skillcard {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.skillcard:hover {
+    transform: scale(0.9); /* Slightly zoom in */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Small shadow */
+    border: 1px solid rgb(201, 201, 201);
+    
+}
+
+.skillcard1{
+    padding: 20px;
+    margin: 0px 10px;
+   
+}
+
+.toprated{
+    position: absolute;
+    background-color:gold;
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    top: 40px;
+    font-size: 15px;
+    margin: 3px;
+   
+}
+
+.btnwhatsapp{
+    width: 94%;
+}
+
+.fas.fa-heart {
+    color: rgb(192, 192, 192); 
+    transition: color 0.3s, transform 0.3s; 
+    font-size: 1.0rem; 
+}
+.fas.fa-heart.text-danger {
+    color: rgb(255, 54, 54); 
+}
+

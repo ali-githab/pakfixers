@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PakFixers</title>
+    <!-- ------------- Bootstrap Css Link ----------------- -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <!-- ------------------ icon cdn -------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ------------------------ My Css ---------------------- -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="bg-light">
+    <!-- =============================== Header Section ============================ -->
+    <header class="headerpart">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg  navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#"><span class="text-success fw-bold">Pak</span>Fixers</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./privacy&policy.html">Privacy & Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-search"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./admin/index.php">log in</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+        <!-- --- content -- -->
+        <div class="head-content">
+            <div class="container ">
+                <h1 class="text-white">Find Best Skill Worker</h1>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, facilis.</p>
+            </div>
+        </div>
+        <!-- --- content -- -->
+    </header>
+    <!-- =============================== Header Section ============================ -->
+
+    
+   <!-- ================================== Skill Card Section ========================= -->
+<section class="skillcardsection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="filter_box">
+                    <!-- ----- work ---- -->
+                    <div class="filter_head">
+                        <h5>FILTERS</h5>
+                        <span>RESET</span>
+                    </div>
+                    <hr>
+                    <!-- --accordian-- -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Skills
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body skilllist">
+                                    <a href="">Plumber <b><span class="text-primary">(44)</span></b></a>
+                                    <a href="">Electrician <b><span class="text-primary">(44)</span></b></a>
+                                    <a href="">Mechanic <b><span class="text-primary">(44)</span></b></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Price Range
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body pricelist">
+                                    <a href="">Lower To Higher</a>
+                                    <a href="">Higher To Lower</a>
+                                    <div class="mmbar my-3">
+                                        <div class="row bg-light p-3 g-1">
+                                            <span class="mb-2 text-secondary">Search By Price</span>
+                                            <div class="col-4">
+                                                <input type="text" class="pricebarinput" placeholder="Min">
+                                            </div>
+                                            <div class="col-4">
+                                                <input type="text" class="pricebarinput" placeholder="Max">
+                                            </div>
+                                            <div class="col-4">
+                                                <button class="pricebtn"><i class="fas fa-search-dollar"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Experience
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <div class="exp-box">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                            <label class="form-check-label" for="flexCheckDefault1">6 Months</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                            <label class="form-check-label" for="flexCheckDefault2">1 Year</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                            <label class="form-check-label" for="flexCheckDefault3">2 Years</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                            <label class="form-check-label" for="flexCheckDefault4">5 Years</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- --accordian-- -->
+                </div>
+            </div>
+            <div class="col-12 col-md-9">
+                <!-- ----------- search bar ----------- -->
+                <div class="searchbarbox">
+                    <input type="text" placeholder="Search here best skill man.....">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <!-- ----------- search bar ----------- -->
+                <!-- ----------- Card ----------- -->
+                <div class="skillcard1 g-1">
+                    <div class="row mx-2 my-2 d-flex justify-content-between">
+                        <!-- card -->
+                         <a href="detailedcard.html">
+                             
+                             <div class="col-6 col-sm-4  col-xs-6">
+                                 <div class="skillcard rounded bg-transparent shadow my-3 p-3">
+                                     <div class="toprated"><span>Featured</span></div>
+                                     <img src="./assets/images/pexels-sa-foysal-1893409-6409119.jpg" width="100%" alt="">
+                                     <h2 class="fw-bold my-2">Mark Allen</h2>
+                                     <p class="text-primary">Electrician</p>
+                                     <p class="m--1">Gulshan E Maymar, Karachi</p>
+                                     <div class="star d-flex g-3">
+                                         <i class="fas fa-star text-warning"></i>
+                                         <i class="fas fa-star text-warning"></i>
+                                         <i class="fas fa-star text-warning"></i>
+                                         <i class="fas fa-star text-warning"></i>
+                                         <i class="fas fa-star text-warning"></i>
+                                         <p class="fw-bold mx-1">(4.9)</p>
+                                     </div>
+                                     <button class="btn btn-primary col-12 my-2 rounded btn-sm"><span><i class="fas fa-eye text-light mx-1"></i></span>View More</button>
+                                 </div>
+                             </div>
+                         </a>
+                       
+                    </div>
+                </div>
+                <!-- ----------- Card ----------- -->
+            </div>
+        </div>
+    </div>
+
+      <!-- footer -->
+      <!-- footer -->
+      <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+      <script src="./assets/js/script.js"></script>
+    </section>
+    
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                <h2 class="fw-bold   "> <span class="text-success" >Pak</span>Fixers :</h5>
+                  <p class="mt-4">
+                      PakFixers connects you with skilled professionals offering services such as electrical work, plumbing, and more. Our mission is to provide reliable and high-quality services to meet your needs.
+                  </p>
+              </div>
+              <div class="col-md-3">
+                  <h3 class="fw-bold">Services</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-light">Electricians</a></li>
+                      <li><a href="#" class="text-light">Plumbers</a></li>
+                      <li><a href="#" class="text-light">HVAC Services</a></li>
+                      <li><a href="#" class="text-light">Carpenters</a></li>
+                      <li><a href="#" class="text-light">More Services</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                  <h3 class="fw-bold">Contact Us</h3>
+                  <p>
+                      Email: <a href="mailto:info@pakfixers.com" class="text-light">info@pakfixers.com</a><br>
+                      Phone: <a href="tel:+123456789" class="text-light"><span class="text-info">+1 (234) 567-89</span></a><br>
+                      <a href="https://www.pakfixers.com" class="text-light">www.pakfixers.com</a>
+                  </p>
+                </div>
+          </div>
+          <div class="text-center mt-4">
+              <small>&copy; 2024 PakFixers. All rights reserved.</small>
+          </div>
+      </div>
+  </footer>

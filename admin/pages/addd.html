@@ -1,0 +1,164 @@
+<?php
+
+
+
+
+
+include("../logics/common.php");
+include("../components/sidebar.php");
+
+
+
+?>
+
+
+
+
+
+<div id="main">
+
+
+
+    <div class="page-content">
+        <section class="row">
+            <div class="col-12 col-lg-9">
+
+
+                <div class="container">
+
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Horizontal Navs</h5>
+                            </div>
+                            <div class="card-body">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">Card Info</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Card Experince</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link active" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="true">Contact</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="card-body">
+
+                                            <div class="form-body c">
+                                                <div class="row">
+                                                    <!-- Title -->
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <label for="title-vertical">Title</label>
+                                                            <input type="text" id="title-vertical" class="form-control" name="title" placeholder="Title">
+                                                        </div>
+                                                    </div>
+                                                    <!-- Category Dropdown -->
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <label for="category-vertical">Category</label>
+                                                            <select id="category-vertical" class="form-control" name="category">
+                                                                <option value="plumber">Plumber</option>
+                                                                <option value="mechanic">Mechanic</option>
+                                                                <option value="electrician">Electrician</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Description -->
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <label for="description-vertical">Description</label>
+                                                            <textarea id="description-vertical" class="form-control" name="description" placeholder="Description" rows="5"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Submit and Reset Buttons -->
+                                                    <div class="col-12 d-flex justify-content-end">
+                                                        <!-- <button type="submit" class="btn btn-primary me-1 mb-1">Submit</button> -->
+                                                        <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                        <div class="card-body">
+
+                                            <div class="form-body c">
+                                                <div class="row">
+                                                    <!-- Experience Dropdown -->
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <label for="experience-vertical">Experience</label>
+                                                            <select id="experience-vertical" class="form-control" name="experience">
+                                                                <option value="1">1 Year+</option>
+                                                                <option value="2">2 Years+</option>
+                                                                <option value="3">3 Years+</option>
+                                                                <option value="4">4 Years+</option>
+                                                                <option value="5">5 Years+</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Experience Description -->
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <label for="experience-description-vertical">Experience Description</label>
+                                                            <textarea id="experience-description-vertical" class="form-control" name="experience-description" placeholder="Describe your experience" rows="5"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Submit and Reset Buttons -->
+                                                    <div class="col-12 d-flex justify-content-end">
+                                                        <button type="submit" class="btn btn-primary me-1 mb-1">Submit</button>
+                                                        <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade active show" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                        <p class="mt-2">Duis ultrices purus non eros fermentum hendrerit. Aenean
+                                            ornare interdum
+                                            viverra. Sed ut odio velit. Aenean eu diam
+                                            dictum nibh rhoncus mattis quis ac risus. Vivamus eu congue ipsum.
+                                            Maecenas id
+                                            sollicitudin ex. Cras in ex vestibulum,
+                                            posuere orci at, sollicitudin purus. Morbi mollis elementum enim, in
+                                            cursus sem
+                                            placerat ut.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+            <?php
+            include("../components/leftbar.php") ?>
+
+        </section>
+    </div>
+    <?php
+    include("../components/footer.php") ?>
+
+    <script>
+        
+    </script>

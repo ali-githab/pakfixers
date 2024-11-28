@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PakFixers</title>
+    <!-- ------------- Bootstrap Css Link ----------------- -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <!-- ------------------ icon cdn -------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ------------------------ My Css ---------------------- -->
+     <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="bg-light">
+    <!-- =============================== Header Section ============================ -->
+    <header class="headerpart">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg  navbar-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#"><span class="text-success fw-bold">Pak</span>Fixers</a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./privacy&policy.html">Privacy & Policy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                  </li>
+                 
+                </ul>
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-search"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./admin/index.html">Log in</a>
+                    </li>
+                  
+                  </ul>
+               
+              </div>
+            </div>
+          </nav>
+        <!-- Navbar -->
+         <!-- --- content -- -->
+          <div class="head-content">
+            <div class="container ">
+              <h1 class="text-white">Find Best Skill Worker</h1>
+              <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, facilis.</p>
+            </div>
+          </div>
+         <!-- --- content -- -->
+    </header>
+    <!-- =============================== Header Section ============================ -->
+     
+    <!-- ================================== Skill Card Section ========================= -->
+     <section class="skillcardsection">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-sm-12">
+              <div class="filter_box">
+                <!-- ----- work ---- -->
+                <div class="filter_head">
+                  <h5>FILTERS</h5>
+                  <span>RESET</span>
+                </div>
+                <hr>
+                <!-- --accordian-- -->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Skills
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body skilllist">
+                        <a href="">Plumber <b><span class="text-primary">(44)</span></b></a>
+                        <a href="">Electricion <b><span class="text-primary">(44)</span></b></a>
+                        <a href="">Mechanic <b><span class="text-primary">(44)</span></b></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Price Range
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body pricelist">
+                        <a href="">Lower To Higher</a>
+                        <a href="">Higher To Lower</a>
+                        <div class="mmbar my-3">
+                          <div class="row bg-light p-3 g-1">
+                            <span class="mb-2 text-secondary">Search By Price</span>
+                            <div class="col-4">
+                              <input type="text" class="pricebarinput" placeholder="Min">
+                            </div>
+                         
+                            <div class="col-4">
+                              <input type="text" class="pricebarinput" placeholder="Max">
+                            </div>
+                            <div class="col-4">
+                              <button class="pricebtn"><i class="fas fa-search-dollar"></i></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Experience
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <div class="exp-box">
+                          <!-- --- check box --  -->
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              6 Months
+                            </label>
+                          </div>
+                          <!-- --- check box --  -->
+                          <!-- --- check box --  -->
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              1 Year
+                            </label>
+                          </div>
+                          <!-- --- check box --  -->
+                          <!-- --- check box --  -->
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              2 Year
+                            </label>
+                          </div>
+                          <!-- --- check box --  -->
+                          <!-- --- check box --  -->
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                             5 Year
+                            </label>
+                          </div>
+                          <!-- --- check box --  -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- --accordian-- -->
+                <!-- ----- work ---- -->
+              </div>
+            </div>
+            <div class="col-lg-9 col-sm-12">
+              <!-- ----------- search bar ----------- -->
+               <div class="searchbarbox">
+                  <input type="text" placeholder="Search here best skill man.....">
+                  <button><i class="fas fa-search"></i></button>
+               </div>
+              <!-- ----------- search bar ----------- -->
+               <!-- ==================== skillman  box ==================== -->
+              <div class="skillmanbox bg-white shadow p-3">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="./assets/images/pexels-sa-foysal-1893409-6409119.jpg" class="w-100 mb-3" alt="">
+                        <div class="bg-white shadow p-3 mb-3">
+                          <p><b>Location: </b><br>Gulshan e Maymar</p>
+                          <p><b>Experience: </b><br>2 Year</p>
+                          <p><b>Phone: </b><br>0320 2049281</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                              <button class="btn btn-light shadow mx-2 btn-sm w-50">
+                                  <i class="fas fa-eye text-dark mx-2 text-warning"></i>89
+                              </button>
+                              <button class="btn btn-light shadow mx-2 btn-sm w-50" id="likeButton" onclick="toggleLike()">
+                                  <i class="fas fa-heart" id="likeIcon"></i><span class="fw-"> 65</span>
+                              </button>
+                          </div>
+                          <button class="btn btnwhatsapp btn-success mx-2 btn-sm mt-2">
+                              <i class="fab fa-whatsapp text-light mx-2 text-success"></i>
+                              <span class="fw-bold">WHATSAPP</span>
+                          </button>
+                      </div>
+                      
+                        
+                       
+                    </div>
+                    <div class="col-8">
+                        <div class="d-flex justify-content-between">
+                            <h2 class="fw-bold">Mark Allen</h2>
+                            <div class="d-flex my-2 align-items-center">
+                                <span class="fw-bold ">Rating: </span>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <span>(5.0)</span>
+                              </div>
+                        </div>
+                        <span class="text-primary">Electrition</span>
+
+                        <p><b>About Me:</b> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cum libero recusandae! Blanditiis tempora accusantium ratione! Est repudiandae repellat officiis impedit quae tenetur ducimus magni tempora eum laborum quas ut a at vitae, possimus quasi voluptas! Aliquam voluptas, similique perspiciatis eos blanditiis iste optio sit, magnam tempore possimus modi sapiente!</p>
+                     
+                        <div class="skillmanbox bg-white shadow p-3 mt-3">
+                          <div class="row">
+                            <div class="col-12">
+                                <h3 class="fw-bold">Comments</h3>
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="3" placeholder="Add a comment..."></textarea>
+                                    <button class="btn btn-primary btn-sm mt-2">Submit</button>
+                                </div>
+                                <div class="comment-list">
+                                    <div class="comment p-2 mb-2 bg-light rounded d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <img src="./assets/images/pexels-yankrukov-8436560.jpg" alt="John Doe" class="rounded-circle me-2" style="width: 40px; height: 40px;">
+                                            <div class="flex-grow-1">
+                                                <strong>John Doe:</strong>
+                                                <br>
+                                                <span>Great electrician! Highly recommend.</span>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-light btn-sm ms-2">
+                                          <div class="text-muted small mb-1">Oct 31, 2023</div>
+                                            <i class="fas fa-heart" aria-hidden="true"></i> <span>12</span>
+                                        </button>
+                                    </div>
+                                    
+                                    <div class="comment p-2 mb-2 bg-light rounded d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <img src="./assets/images/pexels-gregory-debart-91515300-9117796.jpg" alt="Jane Smith" class="rounded-circle me-2" style="width: 40px; height: 40px;">
+                                            <div class="flex-grow-1">
+                                                <strong>Jane Smith:</strong>
+                                                <br>
+                                                <span>Very professional and quick service!</span>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-light  btn-sm ms-2">
+                                          <div class="text-muted  small  mb-1">Oct 30, 2023</div>
+                                            <i class="fas fa-heart" aria-hidden="true"></i> <span>8</span>
+                                        </button>
+                                    </div>
+                                    
+                                    <div class="comment p-2 mb-2 bg-light rounded d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <img src="./assets/images/pexels-guillermo-berlin-1524368912-28686631.jpg" alt="Michael Brown" class="rounded-circle me-2" style="width: 40px; height: 40px;">
+                                            <div class="flex-grow-1">
+                                                <strong>Michael Brown:</strong>
+                                                <br>
+                                                <span>Had a wonderful experience. Thank you!</span>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-light btn-sm ms-2">
+                                          <div class="text-muted small mb-1">Oct 29, 2023</div>
+                                            <i class="fas fa-heart" aria-hidden="true"></i> <span>5</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                      </div>
+                      
+                    </div>
+
+                </div>
+              </div>
+               <!-- ==================== skillman box ==================== -->
+            </div>
+          </div>
+        </div>
+     </section>
+    <!-- ================================== Skill Card Section ========================= -->
+
+   <!-- -----------------footer------------------- -->
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                <h2 class="fw-bold   "> <span class="text-success" >Pak</span>Fixers :</h5>
+                  <p class="mt-4">
+                      PakFixers connects you with skilled professionals offering services such as electrical work, plumbing, and more. Our mission is to provide reliable and high-quality services to meet your needs.
+                  </p>
+              </div>
+              <div class="col-md-3">
+                  <h3 class="fw-bold">Services</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-light">Electricians</a></li>
+                      <li><a href="#" class="text-light">Plumbers</a></li>
+                      <li><a href="#" class="text-light">HVAC Services</a></li>
+                      <li><a href="#" class="text-light">Carpenters</a></li>
+                      <li><a href="#" class="text-light">More Services</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                  <h3 class="fw-bold">Contact Us</h3>
+                  <p>
+                      Email: <a href="mailto:info@pakfixers.com" class="text-light">info@pakfixers.com</a><br>
+                      Phone: <a href="tel:+123456789" class="text-light"><span class="text-info">+1 (234) 567-89</span></a><br>
+                      <a href="https://www.pakfixers.com" class="text-light">www.pakfixers.com</a>
+                  </p>
+                </div>
+          </div>
+          <div class="text-center mt-4">
+              <small>&copy; 2024 PakFixers. All rights reserved.</small>
+          </div>
+      </div>
+  </footer>
+  <!-- ---------------- Bootstrap Js Link ------------------ -->
+   <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+   <script src="./assets/js/script.js"></script>
+</body>
+</html>
